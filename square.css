@@ -1,0 +1,61 @@
+*{box-sizing: border-box;
+margin: 0;}
+
+.listWrapper {
+    height: 400px;
+    width:  400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: red;
+}
+
+.square {
+    width: 250px;
+    height: 250px;
+    background-color: chartreuse;
+    border-color: darkblue;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+}
+
+.square:hover{
+    z-index: 1;
+}
+.roundedSquare {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(7, 12, 2);
+    border-radius: 10%;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.one:hover{
+    z-index: 1;
+    background-color: darkcyan;
+}
+.two:hover {
+    z-index: 1;
+    background-color: blueviolet;
+}
+
+.three:hover{
+    z-index: 1;
+    background-color: crimson;
+}
+
+.four:hover{
+    z-index: 1;
+    background-color: rgb(173, 141, 148);
+}
